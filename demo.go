@@ -7,7 +7,7 @@ import (
 	"runtime"
 )
 
-func Add(x int, y int) int {
+func Add1(x int, y int) int {
 	return x + y
 }
 
