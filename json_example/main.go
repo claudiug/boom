@@ -22,7 +22,7 @@ func (u User) MarshalJSON() ([]byte, error) {
 	return json.Marshal(m)
 }
 
-func main() {
+func main(1) {
 	u := User{FirstName: "foo", LastName: "bar", Password: "foobar"}
 	//encode
 	m, _ := json.Marshal(u)
